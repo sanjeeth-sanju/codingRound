@@ -7,3 +7,5 @@ All 3 testeds failed
 
 PageFactory webelements not initialized 
 Chromedriver 2.35 to be used to make it compatible with the chrome browser version
+
+Created a BasePage to initialize thw page factory elements and this base class was extended to the page classes.
