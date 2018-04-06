@@ -4,3 +4,6 @@ Default suite
 Total tests run: 3, Failures: 3, Skips: 0
 ===============================================
 All 3 testeds failed 
+
+PageFactory webelements not initialized 
+Chromedriver 2.35 to be used to make it compatible with the chrome browser version
