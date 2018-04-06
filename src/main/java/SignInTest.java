@@ -5,9 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SignInTest {
+public class SignInTest extends BasePage{
 
-    WebDriver driver = new ChromeDriver();
+    driver = new ChromeDriver();
 
     @Test
     public void shouldThrowAnErrorIfSignInDetailsAreMissing() {
