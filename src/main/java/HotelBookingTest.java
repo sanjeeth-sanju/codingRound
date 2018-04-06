@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class HotelBookingTest {
+public class HotelBookingTest extends BasePage {
 
     WebDriver driver = new ChromeDriver();
 
