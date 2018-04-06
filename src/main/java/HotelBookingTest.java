@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class HotelBookingTest extends BasePage {
 
-    WebDriver driver = new ChromeDriver();
+    driver = new ChromeDriver();
 
     @FindBy(linkText = "Hotels")
     private WebElement hotelLink;
